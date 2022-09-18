@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Outfit';
+    background-color: #d5e1ef;
+    font-size:15px;
+    
+}
+.qr-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    box-shadow: 0 0 16px 0 #aaa;
+    background-color: #FFF;
+}
+.qr-card{
+    width: 25%;
+
+}
+.qr-card .qr-code-img img{
+    margin-bottom: 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    width: 100%;
+}
+@media (max-width:767px){
+    .qr-card{
+        width: 90%;
+        margin: auto;
+    }
+}
+.qr-card .qr-code-body{
+    text-align: center;
+}
+.qr-card .qr-code-body header{
+    font-weight: 700;
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+.qr-card .qr-code-body p{
+    color: #848991;
+}
